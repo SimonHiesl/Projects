@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 mp.dps = 1+1000000
 pi = str(mp.pi)[2:]
 
-#Distribution of two digit PAO pairs in Pi
+#Distribution of two digit (PAO) pairs in Pi
 
 pi_pairs = []
 i=0

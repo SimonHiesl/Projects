@@ -17,4 +17,4 @@ def create_password(pw_length, pw_signs):
     print(password, "\n")
     print("Strength:", bits, "bits")
 
-create_password(20, Num_CS)
+create_password(15, Num_CS)

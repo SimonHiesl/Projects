@@ -102,13 +102,13 @@ def secure_key(key_size):
     return key
 
 key_length = 100000
-key_file = open("Key.txt", "w")
+key_file = open("./Cryptography/Key.txt", "w")
 key_file.write(secure_key(key_length))
 key_file.close()
 
 #Importing a key
 
-key_file = open('Key.txt', 'r')
+key_file = open('./Cryptography/Key.txt', 'r')
 shared_key = key_file.read()
 key_length = len(shared_key)
 key_file.close()

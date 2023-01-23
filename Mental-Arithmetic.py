@@ -97,4 +97,4 @@ def average(values):
     return round(sum(values)/len(values),2)
 
 #Input: calculation(operation (*,+,-), digit_1, digit_2, max_attempts)
-calculation("*",2,1,12)
+calculation("*",2,1,5)

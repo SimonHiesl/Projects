@@ -92,7 +92,6 @@ def type_message():
         print(messenger(shared_key, x), "\n")
         print("Percentage of left key:", 100*len(shared_key)/key_length, "%" "\n")
 
-
 #Creating a key
 
 def secure_key(key_size):

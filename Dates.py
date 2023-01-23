@@ -117,5 +117,4 @@ def average(values):
     return round(sum(values)/len(values),2)
 
 #give_weekday(3,7,2025)
-
-ask_date(1600, 2300, 5)
+ask_date(1600, 2400, 5)

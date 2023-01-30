@@ -33,7 +33,7 @@ if( len(sys.argv) == 4
     and sys.argv[2].isdigit() ): # check for second argument beeing a number 
     
     password, bits = create_password( int(sys.argv[2]),  # first argument is pw length as int
-                                      eval(sys.argv[3]) if sys.argv[3] in ['ASCII', 'Num_CS', 'CS', 'CI', 'Num', 'Bin', 'PAO'] else sys.argv[3],  # seconde arument is char set to use for pw
+                                      eval(sys.argv[3]) if sys.argv[3] in ['ASCII', 'Num_CS', 'CS', 'CI', 'Num', 'Bin', 'PAO'] else sys.argv[3],  # seconde arument is char set to use for pw either use one of avalible lists or use passed chars
                                       "")  # third argument is string to initialise password variable
     
     print(f"""

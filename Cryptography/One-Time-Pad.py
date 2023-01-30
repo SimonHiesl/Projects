@@ -112,6 +112,6 @@ shared_key = key_file.read()
 key_length = len(shared_key)
 key_file.close()
 
-#Function to encrypt and decrypt messages.
+#Function to encrypt and decrypt messages:
 
 type_message()

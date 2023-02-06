@@ -20,6 +20,17 @@ def check_no_bars(sample_size=100000):
                 x += 1
         if x == 6:
             count += 1
-    return count/sample_size*100
+    return count
+
+def made_center(sample_size=100000):
+    count = 0
+    for i in range(sample_size):
+        scramble = give_rd_centers()
+        for i in [0, 4, 8, 12, 16, 20]:
+            if len(set(scramble[0+i:4+i])) == 1:
+                count += 1
+                break
+    return count
 
 print(check_no_bars())
+print(made_center())
